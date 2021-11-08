@@ -526,7 +526,7 @@ body{
 	grid-template-columns: 1fr 1fr;
 }
 .site{
-	border-radius: 20px;
+	border-radius: 10px;
 	width: 100%;
 	overflow: hidden;
 }
