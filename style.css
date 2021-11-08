@@ -488,6 +488,31 @@ body{
 	bottom: -50px;
 	right: -200px;
 }
+.code p a{
+	color: #fff;
+	transition: .1s;
+	text-decoration: none;
+}
+.code p a:hover{
+	color: gold;
+	transition: .1s;
+}
+.code p a:hover:after{
+	background: gold;
+	transition: .1s;
+}
+.code p a:after{
+	content: '';
+	display: flex;
+	width: 100%;
+	transition: .1s;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translateY(7px);
+	background: #fff;
+}
 .code h1 span{
 	color: gold;
 }
@@ -599,4 +624,91 @@ body{
 .tt a{
 	color: gold;
 	text-decoration: none;
+}
+
+.gov{
+	display: flex;
+	justify-content: center;
+	background: #444;
+	padding: 100px 0;
+}
+.gg h1{
+	font-size: 36px;
+	font-family: sans-serif;
+	font-weight: 1000;
+	color: #fff;
+	line-height: 40px;
+}
+.gg h1 span{
+	color: gold;
+}
+.gg p{
+	margin-top: 40px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: sans-serif;
+	line-height: 30px;
+	width: 70%;
+}
+.gg p span a{
+	transition: .1s;
+	color: #fff;
+	text-decoration: none;
+}
+.gg p span a:after{
+	content: '';
+	display: flex;
+	transition: .1s;
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	transform: translateY(7px);
+	bottom: 0;
+	left: 0;
+}
+.gg p span a:hover{
+	color: gold;
+	transition: .1s;
+}
+.gg p span a:hover:after{
+	background: gold;
+	transition: .1s;
+}
+.slidera{
+	margin-top: 40px;
+	font-family: sans-serif;
+	color: #fff;
+	font-weight: 500;
+	line-height: 30px;
+	display: grid;
+	margin-bottom: 100px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+}
+.ac{
+	background: #222;
+	border-radius: 20px;
+	padding: 40px;
+	position: relative;
+}
+.ac p{
+	width: 100%;
+	margin-top: 0 !important;
+	font-size: 16px;
+}
+.ac label{
+	position: absolute;
+	line-height: 0;
+	font-size: 50px;
+	color: gold;
+	font-weight: 1000;
+	top: 0;
+	transform: translate(-10px,0px);
+}
+.ss{
+	border-radius: 40px;
+	margin-top: 40px;
 }
