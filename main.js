@@ -9,3 +9,11 @@ $(".tops").click(()=>{
 	});
 
 });
+
+$(".menuphone").click(function(){
+	$(".menup").css("transform", "translatex(0)");
+});
+
+$(".clm").click(function(){
+	$(".menup").css("transform", "translatex(100%)");
+});
