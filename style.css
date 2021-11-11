@@ -2188,10 +2188,16 @@ body{
 		display: flex;
 	}
 	.qq h1{
-		font-family: fantasy;
-		font-weight: 1000;
 		font-size: 18px !important;
 		color: #111;
 		font-family: sans-serif;
+		font-weight: 500 !important;
+	}
+	.qq h1 span{
+		font-size: 18px !important;
+		font-weight: 500 !important;
+	}
+	.qq p{
+		font-size: 18px !important;
 	}
 }
