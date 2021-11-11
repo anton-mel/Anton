@@ -1945,7 +1945,7 @@ body{
 		align-items: center;
 	}
 	.videob iframe{
-		height: 250px;
+		width: 100%;
 	}
 	.awardlistm ul{
 		grid-template-columns: 1fr !important;
