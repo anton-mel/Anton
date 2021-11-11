@@ -1914,11 +1914,11 @@ body{
 		grid-row-gap: 40px;
 	}
 	.mp h1{
-		width: 300px;
+		width: auto !important;
 		text-align: center;
 	}
 	.mp p{
-		width: 300px !important;
+		width: auto !important;
 		text-align: center;
 	}
 	.btms{
