@@ -1896,6 +1896,9 @@ body{
 		z-index: 999;
 		text-align: center;
 	}
+	.name div{
+		font-weight: 1000 !important;
+	}
 	.mephoto{
 		left: 50%;
 		top: 0px;
