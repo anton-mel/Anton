@@ -2057,7 +2057,7 @@ body{
 	.container2{
 		display: flex;
 		justify-content: center;
-		width: 100% !important;
+		width: 100vw !important;
 		padding: 0 40px;
 	}
 	.menu-cont{
