@@ -1916,10 +1916,12 @@ body{
 	.mp h1{
 		width: auto !important;
 		text-align: center;
+		background: red;
 	}
 	.mp p{
 		width: auto !important;
 		text-align: center;
+		background: red;
 	}
 	.btms{
 		flex-direction: column;
