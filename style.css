@@ -1947,6 +1947,7 @@ body{
 	.videob iframe{
 		width: 100%;
 		height: auto;
+		margin-top: 60px;
 	}
 	.awardlistm ul{
 		grid-template-columns: 1fr !important;
@@ -1959,6 +1960,10 @@ body{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-top: 60px;
+	}
+	.q{
+		margin-top: 60px;
 	}
 	.awardlistm ul li{
 		margin-bottom: 0px;
@@ -2002,6 +2007,7 @@ body{
 	.slidera{
 		grid-template-columns: 1fr;
 		grid-row-gap: 40px;
+		padding-bottom: 60px;
 		width: 100%;
 	}
 	.endgg{
@@ -2069,6 +2075,9 @@ body{
 	}
 	.listl ul li{
 		padding: 15px;
+	}
+	.listl{
+		margin-top: 60px;
 	}
 
 
@@ -2158,5 +2167,8 @@ body{
 	}
 	.line{
 		padding: 60px 0;
+	}
+	.footerq h1{
+		margin-bottom: 60px;
 	}
 }
