@@ -5,6 +5,10 @@
 body{
 	overflow-x: hidden !important;
 }
+a{
+	text-decoration: none;
+	color: #fff;
+}
 
 :root{
 	/*font size*/
