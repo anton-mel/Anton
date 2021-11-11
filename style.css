@@ -121,7 +121,7 @@ a{
 	font-family: sans-serif;
 }
 .logo div:nth-child(2){
-	transform: translateY(-15px) translateX(-2px);
+	transform: translateY(-10px) translateX(-2px);
 	color: gold;
 }
 .nav ul{
