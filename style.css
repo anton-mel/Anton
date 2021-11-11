@@ -2064,8 +2064,8 @@ body{
 		padding: 0 40px;
 	}
 	.code p:after{
-		width: 70px;
-		height: 70px;
+		width: 0px;
+		height: 0px;
 		bottom: 200px;
 		right: -200px;
 	}
@@ -2089,32 +2089,32 @@ body{
 		width: 270px;
 	}
 	.mephoto:before{
-		height: 70px;
-		width: 70px;
+		height: 0px;
+		width: 0px;
 		left: 0px;
 		top: 0px;
 		z-index: 99;
 	}
 	.slider:after{
-		width: 120px;
-		height: 120px;
+		width: 0px;
+		height: 0px;
 		top: -40px;
 	}
 	.slider:before{
-		width: 70px;
-		height: 70px;
+		width: 0px;
+		height: 0px;
 		top: 280px;
 		right: 150px;
 	}
 	.videob:before{
-		width: 80px;
-		height: 80px;
+		width: 0px;
+		height: 0px;
 		bottom: 40px;
 		left: -20px;
 	}
 	.videob:after{
-		width: 30px;
-		height: 30px;
+		width: 0px;
+		height: 0px;
 		bottom: 140px;
 		left: 40px;
 	}
