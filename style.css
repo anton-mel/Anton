@@ -1916,12 +1916,10 @@ body{
 	.mp h1{
 		width: auto !important;
 		text-align: center;
-		background: red;
 	}
 	.mp p{
 		width: auto !important;
 		text-align: center;
-		background: red;
 	}
 	.btms{
 		flex-direction: column;
@@ -2141,5 +2139,24 @@ body{
 		font-size: 45px;
 		transform: translateY(0px) translateX(-50%);
 		left: 50%;
+	}
+
+	.header{
+		padding-bottom: 50px;
+	}
+	.body{
+		padding: 50px 0;
+	}
+	.prog{
+		padding: 50px 0;
+	}
+	.gov{
+		padding: 50px 0;
+	}
+	.footerq{
+		padding: 50px 0;
+	}
+	.line{
+		padding: 50px 0;
 	}
 }
