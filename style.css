@@ -1771,7 +1771,7 @@ body{
 		display: flex;
 		justify-content: center;
 		width: 100% !important;
-		padding: 0 40px;
+		padding: 0 !important;
 	}
 	.menu-cont{
 		padding: 0 40px;
@@ -1914,11 +1914,11 @@ body{
 		grid-row-gap: 40px;
 	}
 	.mp h1{
-		width: 100%;
+		width: 300px;
 		text-align: center;
 	}
 	.mp p{
-		width: 100% !important;
+		width: 300px !important;
 		text-align: center;
 	}
 	.btms{
@@ -1946,6 +1946,7 @@ body{
 	}
 	.videob iframe{
 		width: 100%;
+		height: auto;
 	}
 	.awardlistm ul{
 		grid-template-columns: 1fr !important;
