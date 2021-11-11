@@ -121,7 +121,7 @@ a{
 	font-family: sans-serif;
 }
 .logo div:nth-child(2){
-	transform: translateY(-7px) translateX(-2px);
+	transform: translateY(-15px) translateX(-2px);
 	color: gold;
 }
 .nav ul{
@@ -2100,7 +2100,7 @@ a{
 		color: gold;
 	}
 	.name div:nth-child(2){
-		transform: translateY(-4px) translateX(-5px);
+		transform: translateY(0px) translateX(-5px);
 	}
 	.btmain a{
 		color: #222 !important;
