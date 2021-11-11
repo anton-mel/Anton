@@ -1857,7 +1857,7 @@ body{
 		--s36: 30px;
 		--s40: 30px;
 		--s50: 50px;
-		--s70: 45px;
+		--s70: 35px;
 		--s100: 40px;
 		--s150: 100px;
 		--s300: 300px;
@@ -1880,7 +1880,7 @@ body{
 	}
 	.contd{
 		margin-top: 150px;
-		width: 340px;
+		width: 300px;
 		align-items: center;
 		display: flex;
 		flex-direction: column;
@@ -1911,11 +1911,11 @@ body{
 		grid-row-gap: 40px;
 	}
 	.mp h1{
-		width: 400px;
+		width: 300px;
 		text-align: center;
 	}
 	.mp p{
-		width: 400px !important;
+		width: 300px !important;
 		text-align: center;
 	}
 	.btms{
@@ -2069,7 +2069,7 @@ body{
 
 
 	.logo div:nth-child(2){
-		transform: translateY(-7px) translateX(-2px);
+		transform: translateY(-10px) translateX(-2px);
 		color: gold;
 	}
 	.name div:nth-child(2){
@@ -2117,5 +2117,23 @@ body{
 		height: 120px;
 		bottom: 140px;
 		right: 100px;
+	}
+
+	.blocks{
+		background: #444;
+		border-radius: 20px;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 30px 40px 20px 40px;
+	}
+	.blocks p{
+		text-align: center;
+	}
+	.blocks label{
+		font-size: 45px;
+		transform: translateY(0px) translateX(-50%);
+		left: 50%;
 	}
 }
