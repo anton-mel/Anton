@@ -1985,7 +1985,7 @@ body{
 		align-items: center;
 	}
 	.listl ul{
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
 	}
 	.sites {
