@@ -1880,7 +1880,7 @@ body{
 	}
 	.contd{
 		margin-top: 150px;
-		width: 300px;
+		width: 100%;
 		align-items: center;
 		display: flex;
 		flex-direction: column;
@@ -1908,17 +1908,17 @@ body{
 		text-align: center;
 	}
 	.slider{
-		width: 340px;
+		width: 100%;
 		grid-template-columns: 1fr;
 		grid-column-gap: 0;
 		grid-row-gap: 40px;
 	}
 	.mp h1{
-		width: 300px;
+		width: 100%;
 		text-align: center;
 	}
 	.mp p{
-		width: 300px !important;
+		width: 100% !important;
 		text-align: center;
 	}
 	.btms{
@@ -1951,7 +1951,7 @@ body{
 		grid-template-columns: 1fr !important;
 		grid-column-gap: 0px;
 		grid-row-gap: 40px;
-		width: 400px;
+		width: 100%;
   		grid-column-end: auto;
 	}
 	.awardlistm{
@@ -1970,11 +1970,11 @@ body{
 	}
 	.code h1{
 		text-align: center;
-		width: 340px;
+		width: 100%;
 	}
 	.code p{
 		text-align: center;
-		width: 340px;
+		width: 100%;
 	}
 	.code{
 		display: flex;
@@ -1996,12 +1996,12 @@ body{
 	}
 	.schoolaw h1{
 		text-align: center;
-		width: 350px;
+		width: 100%;
 	}
 	.slidera{
 		grid-template-columns: 1fr;
 		grid-row-gap: 40px;
-		width: 340px;
+		width: 100%;
 	}
 	.endgg{
 		display: flex;
@@ -2010,11 +2010,11 @@ body{
 	}
 	.endgg h1{
 		text-align: center;
-		width: 340px;
+		width: 100%;
 	}
 	.endgg p{
 		text-align: center;
-		width: 340px;
+		width: 100%;
 	}
 	.ff{
 		display: flex;
@@ -2023,11 +2023,11 @@ body{
 	}
 	.ff h1{
 		text-align: center;
-		width: 400px;
+		width: 100%;
 	}
 	.ff ul{
 		grid-template-columns: 1fr;
-		width: 340px;
+		width: 100%;
 	}
 	.ff ul li{
 		align-items: center;
