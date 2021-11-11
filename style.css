@@ -417,11 +417,11 @@ body{
 	margin-top: 100px;
 }
 .videob iframe:nth-child(2){
-	margin-top: 40px;
+	margin-top: 20px !important;
 	display: none;
 }
 .videob iframe:nth-child(3){
-	margin-top: 40px;
+	margin-top: 20px !important;
 	display: none;
 }
 .videob:before{
