@@ -429,11 +429,7 @@ a{
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 20px;
 }
-.videob iframe:nth-child(2){
-	height: 200px !important;
-	margin-top: 40px !important; 
-}
-.videob iframe:nth-child(3){
+.bv iframe{
 	height: 200px !important;
 	margin-top: 40px !important; 
 }
