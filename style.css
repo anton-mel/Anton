@@ -35,7 +35,9 @@ a{
 ::selection { background: gold; color: #111; }
 ::-moz-selection { background: gold; color: #111; }
 
-
+.schoolaw h1{
+	text-align: center;
+}
 .pn:after{
 	display: none !important;
 }
