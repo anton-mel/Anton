@@ -910,7 +910,7 @@ a{
 		/*line height*/
 		--n: 30px; /*normal for p*/
 	}
-
+	
 	.logo div:nth-child(2){
 		transform: translateY(-11px) translateX(-2px);
 		color: gold;
@@ -965,6 +965,9 @@ a{
 }
 
 @media screen and (max-width: 1160px) and (min-width: 965px) {
+	.bv iframe{
+		height: 150px;
+	}
 	.container{
 		width: auto;
 		padding: 0 40px;
