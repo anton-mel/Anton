@@ -849,10 +849,18 @@ a{
 	line-height: var(--n);
 	display: grid;
 	margin-bottom: 100px;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-column-gap: 20px;
+	grid-row-gap: 40px;
+}
+.ac:nth-last-child(-n+2) {
+    grid-column-start: 2;
+}
+.ac:nth-last-child(-n+1) {
+    grid-column-start: 4;
 }
 .ac{
+	grid-column-end: span 2;
 	background: #222;
 	border-radius: 20px;
 	padding: 40px;
