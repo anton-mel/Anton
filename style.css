@@ -424,16 +424,20 @@ a{
 	height: 600px;
 	margin-top: 100px;
 }
-.videob .bv{
+.bv{
 	display: grid;
-	grid-column-template: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 20px;
 }
 .videob iframe:nth-child(2){
 	margin-top: 40px !important;
+	height: auto !important;
+
 }
 .videob iframe:nth-child(3){
 	margin-top: 40px !important;
+	height: auto !important;
+
 }
 .videob:before{
 	content: '';
