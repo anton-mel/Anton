@@ -430,13 +430,11 @@ a{
 	grid-column-gap: 20px;
 }
 .videob iframe:nth-child(2){
-	margin-top: 40px !important;
-	height: auto !important;
+	height: 200px !important;
 
 }
 .videob iframe:nth-child(3){
-	margin-top: 40px !important;
-	height: auto !important;
+	height: 200px !important;
 
 }
 .videob:before{
