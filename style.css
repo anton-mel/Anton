@@ -2024,11 +2024,11 @@ a{
 	}
 	.mp h1{
 		width: auto !important;
-		text-align: center;
+		text-align: left;
 	}
 	.mp p{
 		width: auto !important;
-		text-align: center;
+		text-align: justify;
 	}
 	.btms{
 		flex-direction: column;
@@ -2072,7 +2072,7 @@ a{
 		margin-top: 60px;
 	}
 	.q{
-		margin-top: 60px;
+		margin-top: 40px !important;
 	}
 	.awardlistm ul li{
 		margin-bottom: 0px;
@@ -2084,11 +2084,11 @@ a{
 	  grid-column-start: auto;
 	}
 	.code h1{
-		text-align: center;
+		text-align: left;
 		width: 100%;
 	}
 	.code p{
-		text-align: center;
+		text-align: justify;
 		width: 100%;
 	}
 	.code{
@@ -2110,8 +2110,9 @@ a{
 		align-items: center;
 	}
 	.schoolaw h1{
-		text-align: center;
-		width: 100%;
+		text-align: left;
+		padding-right: 40px;
+		width: auto;
 	}
 	.slidera{
 		grid-template-columns: 1fr;
@@ -2138,11 +2139,11 @@ a{
 		flex-direction: column;
 	}
 	.endgg h1{
-		text-align: center;
+		text-align: left;
 		width: 100%;
 	}
 	.endgg p{
-		text-align: center;
+		text-align: justify;
 		width: 100%;
 	}
 	.ff{
@@ -2151,7 +2152,7 @@ a{
 		align-items: center !important;
 	}
 	.ff h1{
-		text-align: center;
+		text-align: left;
 		width: 100%;
 	}
 	.ff ul{
@@ -2200,9 +2201,15 @@ a{
 	}
 	.listl{
 		margin-top: 60px;
+		width: 100%;
 	}
 
-
+	.tops{
+		color: gold !important;
+	}
+	.tops:after{
+		background: gold !important;
+	}
 	.logo div:nth-child(2){
 		transform: translateY(-10px) translateX(-2px);
 		color: gold;
@@ -2311,5 +2318,8 @@ a{
 	}
 	.qq p{
 		font-size: 14px !important;
+	}
+	.awardlistm h1{
+		text-align: left;
 	}
 }
