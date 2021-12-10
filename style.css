@@ -1077,7 +1077,7 @@ a{
 @media screen and (max-width: 1160px) and (min-width: 965px) {
 
 	.container{
-		width: auto;
+		width: 90%;
 		padding: 0 40px;
 	}
 	.container2{
