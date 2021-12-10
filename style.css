@@ -950,6 +950,7 @@ a{
 						font-size: 30px;
 						line-height: 40px;
 						margin-bottom: 20px;
+						width: 700px;
 					}
 					.descrext h5{
 						font-size: 16px;
@@ -1174,6 +1175,13 @@ a{
 }
 
 @media screen and (max-width: 965px) and (min-width: 768px) {
+	.descrext h1 {
+		width: 100% !important;
+		text-align: left !important;
+	}
+	.descrext h5{
+		padding-right: 0;
+	}
 	.menuphone{
 		display: flex;
 	}
@@ -1456,6 +1464,34 @@ a{
 
 
 @media screen and (max-width: 768px) and (min-width: 600px) {
+	.descrext h1 {
+		width: auto !important;
+		padding: 0 50px;
+		text-align: center !important;
+	}
+	.lineph{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-row-gap: 40px;
+		margin-top: 40px;
+	}
+	.rowsites{
+		flex-direction: column;
+		grid-column-gap: 0px;
+		grid-row-gap: 40px;
+	}
+	.descrext h5{
+		padding-right: 0;
+		text-align: center;
+	}
+	.contextbut{
+		justify-content: center;
+	}
+	.imgext{
+		display: flex;
+	}
+	.extl{
+		display: none;
+	}
 	.bv iframe{
 		height: 200px !important;
 	}
@@ -1736,6 +1772,34 @@ a{
 
 
 @media screen and (max-width: 600px) and (min-width: 570px) {
+	.descrext h1 {
+		width: auto !important;
+		padding: 0 50px;
+		text-align: center !important;
+	}
+	.lineph{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-row-gap: 40px;
+		margin-top: 40px;
+	}
+	.rowsites{
+		flex-direction: column;
+		grid-column-gap: 0px;
+		grid-row-gap: 40px;
+	}
+	.descrext h5{
+		padding-right: 0;
+		text-align: center;
+	}
+	.contextbut{
+		justify-content: center;
+	}
+	.imgext{
+		display: flex;
+	}
+	.extl{
+		display: none;
+	}
 	.bv iframe{
 		height: 140px !important;
 	}
@@ -2030,6 +2094,39 @@ a{
 
 
 @media screen and (max-width: 570px) {
+	.descrext h1 {
+		width: auto !important;
+		padding: 0 0px;
+		font-size: 22px;
+		line-height: 30px;
+		text-align: center !important;
+	}
+	.lineph{
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 40px;
+		margin-top: 40px;
+	}
+	.rowsites{
+		flex-direction: column;
+		grid-column-gap: 0px;
+		grid-row-gap: 40px;
+	}
+	.crm{
+		margin-top: 20px !important;
+	}
+	.descrext h5{
+		padding-right: 0;
+		text-align: justify;
+	}
+	.contextbut{
+		justify-content: center;
+	}
+	.imgext{
+		display: flex;
+	}
+	.extl{
+		display: none;
+	}
 	.bv iframe{
 		height: 200px !important;
 		width: 100% !important;
