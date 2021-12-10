@@ -933,7 +933,7 @@ a{
 						width: 100%;
 						border-radius: 20px;
 						padding: 60px 0 40px 0;
-						background: gold;
+						background: #118167;
 						margin-top: 100px;
 					}
 					.context{
@@ -944,21 +944,19 @@ a{
 					}
 					.descrext{
 						display: flex;
-						color: #111 !important;
 						flex-direction: column;
 					}
 					.descrext h1{
 						font-size: 30px;
 						line-height: 40px;
 						margin-bottom: 20px;
-						color: #111;
 						width: 700px;
-						font-weight: 1000;
 					}
 					.descrext h5{
 						font-size: 16px;
+						color: #fff;
 						font-family: sans-serif;
-						font-weight: 700;
+						font-weight: 500;
 						padding-right: 200px;
 						line-height: 30px;
 					}
@@ -986,19 +984,19 @@ a{
 						font-size: 14px;
 						letter-spacing: .5px;
 						padding: 10px 40px;
-						font-weight: 1000;
+						font-weight: 700;
 						border-radius: 5px;
 						background: transparent;
-						border: solid 3px #111;
+						border: solid 2px #fff;
 						cursor: pointer;
-						color: #111;
+						color: #fff;
 						transition: .1s;
 						white-space: nowrap;
 					}
 					.butext:hover{
-						background: #111;
+						background: #fff;
 						transition: .1s;
-						color: #fff;
+						color: #118167;
 					}
 
 @media screen and (max-width: 1400px) and (min-width: 1160px) {
